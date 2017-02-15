@@ -6,8 +6,8 @@ def draw_square(size=100):
         turtle.forward(size)
         turtle.left(90)
 
-def hdn(size=100):
-    """Draw Das Haus des Nikolaus, using draw_square()"""
+def hvn(size=100):
+    """Draw Das Haus vom Nikolaus, using draw_square()"""
     half_diagonal = (2 * size**2) ** .5 / 2
 
     draw_square(size)

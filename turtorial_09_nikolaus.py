@@ -1,8 +1,8 @@
 #!/usr/bin/env python2
 import turtle
 
-def hdn(size=100):
-    """Draw Das Haus des Nikolaus"""
+def hvn(size=100):
+    """Draw Das Haus vom Nikolaus"""
     diagonal = (2 * size**2) ** .5
     # bottom + diagonal + roof
     turtle.forward(size)
